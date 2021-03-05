@@ -1,0 +1,722 @@
+html,
+body,
+div,
+header,
+footer,
+img,
+col,
+row,
+p,
+select {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1d1d1d;
+    box-sizing: border-box;
+    border: 0;
+}
+
+
+/*
+my css styles start
+*/
+
+.main {
+    padding: 104px 0 48px 0;
+    margin: 0 4px 0 8px;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    box-shadow: 0 6px 7px -2px rgba(0, 0, 0, .1);
+    ;
+    width: 100%;
+    right: 0;
+    z-index: 1;
+    padding-right: 4px;
+}
+
+.header-logo {
+    margin-left: 8px;
+}
+
+.cover-form {
+    margin: 0, 4px, 56px, 8px;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-button {
+    margin-right: 27px;
+}
+
+.header__button {
+    margin-right: 0px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    border-radius: 2px;
+    padding: 13px 19px;
+    font-size: 13px;
+    font-weight: medium;
+}
+
+.search {
+    height: 48px;
+    padding-top: 23px;
+    margin-bottom: 56px;
+}
+
+.search__form {
+    border-bottom: 1px solid #979797;
+}
+
+.search__input {
+    border: none;
+    width: 235px;
+    padding: 0;
+}
+
+.restaurants {
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.restaurants-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 -8px;
+}
+
+.restaurants-list__image {
+    margin-bottom: 16px;
+    max-width: 100%;
+    height: auto;
+}
+
+.restaurants-list :last-child {
+    width: inherit;
+}
+
+.restaurants-list__name {
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.restaurants-list__eats {
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.restaurants-list__time {
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.restaurants-list__Macdonalds,
+.restaurants-list__DimSum,
+.restaurants-list__ДвижOK,
+.restaurants-list__НЯ,
+.restaurants-list__ТочкаДзы,
+.restaurants-list__Cinnabon,
+.restaurants-list__PizzeLove,
+.restaurants-list__ZЮкафе,
+.restaurants-list__BarBQ {
+    padding-bottom: 20px;
+    flex: 1 1 auto;
+    margin: 8px;
+}
+
+.footer {
+    background-color: #262626;
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+
+.footer-logo {
+    margin: 0 0 40px 8px;
+}
+
+.footer-line {
+    margin: 0 8px 32px;
+    border-color: #979797;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.language {
+    margin: 0 0 32px 8px;
+    width: 173px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #3b3b3b;
+    background-image: url(images/world.svg);
+    background-repeat: no-repeat;
+    background-position: 16px;
+    padding-left: 48px;
+}
+
+.footer-info {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+}
+
+.social {
+    margin: 0 0 39px 8px;
+    width: 96px;
+    height: 59px;
+}
+
+.social__container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.social__logo {
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.green {
+    color: #49a144;
+}
+
+.social__facebook,
+.social__twittwer {
+    margin-right: 12px;
+}
+
+.about__uberEats,
+.about__partners,
+.about__partners_restaurants,
+.about__cities,
+.about__prices,
+.about__help,
+.about__faqs {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 0 0 23px 8px;
+}
+
+.break {
+    flex-basis: 100%;
+    width: 0;
+}
+
+.button-app-google {
+    display: flex;
+    flex: row;
+    justify-content: baseline;
+    margin: -8px 0 24px 0;
+}
+
+.app-store {
+    width: 120.66px;
+    height: 40px;
+    margin-left: 243.61px;
+}
+
+.app-store img {
+    width: 120.66px;
+    height: 40px;
+}
+
+.google-play {
+    width: 135px;
+    height: 40px;
+    margin-left: 39.73px;
+}
+
+.google-play img {
+    width: 135px;
+    height: 40px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0 0 8px;
+}
+
+.footer-bottom__trademark,
+.footer-bottom__personal_data,
+.footer-bottom__user_agreement {
+    font-size: 11px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.footer-bottom__user_agreement {
+    margin-bottom: 0;
+}
+
+.button-up {
+    display: block;
+    position: fixed;
+    bottom: 24px;
+    right: 16px;
+    z-index: 101;
+    width: 80px;
+    height: 80px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hero__image {
+    background-image: url(images/Пушкин.png);
+    height: 255px;
+    background-size: cover;
+    position: relative;
+    margin: -32px -4px 0 -8px;
+}
+
+.hero__block {
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 24px 0;
+    align-items: center;
+    margin: 131px 4px 56px 8px;
+    position: absolute;
+    width: 308px;
+    box-shadow: 0px 1px 12px 0px #dad8d8;
+    ;
+}
+
+.hero__name {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero__eats {
+    font-size: 14px;
+    color: #626262;
+    margin-bottom: 16px;
+}
+
+.hero__time {
+    background-color: #262626;
+    border-radius: 15px;
+    padding: 9px 16px 8px 16px;
+}
+
+.hero__time p {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding: 32px 0 29px 8px;
+    margin: 0 -4px 55px -8px;
+    font-size: 16px;
+    color: #626262;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.nav-items {
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.nav-items:last-child {
+    margin-right: 0;
+}
+
+.page-eats__name {
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 32px;
+    width: 84px;
+}
+
+.page-eats__line {
+    border-color: #757575;
+    color: #757575;
+    width: 48px;
+    size: 1px;
+    align-items: center;
+}
+
+.page-eats__cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.page-eats__card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: 1px solid #d8d8d8;
+    border-radius: 1px;
+    width: 470px;
+    height: 160px;
+    padding: 0 0 15px 15px;
+    margin-bottom: 49px;
+}
+
+.page-eats__card_left {
+    padding-top: 15px;
+}
+
+.page-eats__card_firstName {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.page-eats__card_name {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 83px;
+}
+
+.page-eats__card_composition {
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+    margin-bottom: 58px;
+}
+
+.page-eats__card_price {
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.page-eats__card_image {
+    height: inherit;
+}
+
+.page-eats__card_image source {
+    height: 158px;
+}
+
+@media (max-width: 767px) {
+    .header-button {
+        margin-right: 0px;
+    }
+    .header__bascet {
+        display: none;
+    }
+    .restaurants-list__Macdonalds,
+    .restaurants-list__DimSum,
+    .restaurants-list__ДвижOK,
+    .restaurants-list__НЯ,
+    .restaurants-list__ТочкаДзы,
+    .restaurants-list__Cinnabon,
+    .restaurants-list__PizzeLove,
+    .restaurants-list__ZЮкафе,
+    .restaurants-list__BarBQ {
+        margin-right: 4px;
+    }
+    .restaurants-list__image {
+        width: 308px;
+        height: 246px;
+    }
+    .app-store {
+        width: 108.6px;
+        height: 36px;
+        margin-left: 39px;
+    }
+    .app-store img {
+        width: 108.6px;
+        height: 36px;
+    }
+    .google-play {
+        width: 124px;
+        height: 36px;
+        margin-left: 24.4px;
+    }
+    .google-play img {
+        width: 124px;
+        height: 36px;
+    }
+    .button-up {
+        width: 64px;
+        height: 64px;
+    }
+    .button-up img {
+        width: 64px;
+        height: 64px;
+    }
+    .nav {
+        display: none;
+    }
+    .page-eats {
+        padding-top: 112px;
+    }
+    .page-eats__name {
+        width: 84px;
+        margin: 0 auto 43px;
+    }
+    .page-eats__name p {
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    .page-eats__line {
+        margin: 0px auto;
+    }
+    .page-eats__card {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        border-bottom: 1px solid #d8d8d8;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        height: 102px;
+        padding: 0 0 15px 0;
+        margin-bottom: 16px;
+    }
+    .page-eats__card:last-child {
+        margin-bottom: 0;
+    }
+    .page-eats__card_left {
+        padding-top: 0;
+    }
+    .page-eats__card_firstName {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 4px;
+    }
+    .page-eats__card_name {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 41px;
+    }
+    .page-eats__card_composition {
+        font-size: 13px;
+        line-height: 21px;
+        color: #626262;
+        margin-bottom: 16px;
+    }
+    .page-eats__card_price {
+        font-size: 15px;
+        line-height: 21px;
+        font-weight: 500;
+    }
+    .main {
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1123px) {
+    .header {
+        padding-right: 18px;
+    }
+    .main {
+        margin-right: 8px;
+    }
+    .restaurants-list__image {
+        width: 368px;
+        height: 256px;
+    }
+    .social {
+        margin: 0 0 57px 8px;
+    }
+    .google-play {
+        margin-left: 39.7px;
+    }
+    .footer-bottom__trademark,
+    .footer-bottom__personal_data,
+    .footer-bottom__user_agreement {
+        margin-bottom: 0;
+    }
+    .footer-bottom {
+        margin-right: 86px;
+    }
+    .button-app-google {
+        height: 40px;
+        margin: 8px 8px 40px 8px;
+    }
+    .footer-bottom__personal_data {
+        margin-left: 106px;
+    }
+    .footer-bottom__user_agreement {
+        margin-left: 80px;
+    }
+    .footer-info {
+        height: 188px;
+    }
+    .column-1 {
+        margin-left: 80px;
+    }
+    .column-2 {
+        margin-left: 60px;
+    }
+    .hero__image {
+        background-image: url(images/Пушкин-мд.png);
+        padding: 80px 0;
+        margin: 0 -8px 0 -8px;
+        height: 364px;
+    }
+    .hero__block {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;
+        position: relative;
+        margin: 0 0 0 8px;
+        padding: 38px 52px 38px 48px;
+        width: 432px;
+    }
+    .hero__name {
+        font-size: 36px;
+        margin-bottom: 54px;
+    }
+    .hero__eats {
+        margin-right: 66px;
+        align-items: center;
+        margin-bottom: 0;
+        width: 172px;
+    }
+    .nav {
+        margin-right: -8px;
+    }
+    .page-eats__line {
+        display: none;
+    }
+    .page-eats__card {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        border: 1px solid #d8d8d8;
+        border-radius: 1px;
+        width: 100%;
+        height: 160px;
+        padding: 0 0 15px 23px;
+        margin-bottom: 32px;
+    }
+    .page-eats__card:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1124px) {
+    .header {
+        padding-left: 81px;
+        padding-right: 97px;
+    }
+    .header-logo {
+        margin-left: 0;
+    }
+    .main {
+        margin: 0 87px 0px 81px;
+        padding-bottom: 30px;
+    }
+    .footer-logo {
+        margin: 0 87px 40px 81px;
+    }
+    .footer-line {
+        margin: 0 87px 32px 81px;
+    }
+    .language {
+        margin: 0 0 33px 81px;
+        width: 227px;
+    }
+    .social {
+        margin: 0 0 55px 81px;
+        width: 92px;
+        height: 60px;
+    }
+    .social__facebook,
+    .social__twittwer {
+        margin-right: 8px;
+    }
+    .about__uberEats,
+    .about__partners,
+    .about__partners_restaurants,
+    .about__cities,
+    .about__prices,
+    .about__help,
+    .about__faqs {
+        margin: 0 0 23px 8px;
+    }
+    .footer-bottom__trademark,
+    .footer-bottom__personal_data,
+    .footer-bottom__user_agreement {
+        margin-bottom: 0;
+    }
+    .footer-bottom {
+        margin: 0 233px 0 81px;
+    }
+    .app-store {
+        margin-left: 421px;
+    }
+    .google-play {
+        margin-left: 40.34px;
+    }
+    .footer-bottom__personal_data {
+        margin-left: 174px;
+    }
+    .footer-bottom__user_agreement {
+        margin-left: 148px;
+    }
+    .footer-info {
+        height: 188px;
+    }
+    .column-1 {
+        margin-left: 97px;
+    }
+    .column-2 {
+        margin-left: 128px;
+    }
+    .hero__image {
+        background-image: url(images/Пушкин-биг.png);
+        margin: -32px -87px 0 -81px;
+        padding: 80px 0;
+        height: 364px;
+    }
+    .hero__block {
+        margin: 0 0 0 81px;
+        padding: 38px 29px 38px 38px;
+        display: flex;
+        flex-flow: row wrap;
+        position: relative;
+        align-content: center;
+        width: 389px;
+    }
+    .hero__name {
+        font-size: 36px;
+        margin-bottom: 54px;
+    }
+    .hero__eats {
+        width: 172px;
+        margin: 0 50px 0 0;
+        align-items: center;
+    }
+    .nav {
+        padding: 32px 0 29px 81px;
+        margin: 0 -87px 56px -81px;
+    }
+    .page-eats__line {
+        display: none;
+    }
+}
+
+
+/*
+my css styles end
+*/
