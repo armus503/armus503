@@ -1,0 +1,76 @@
+        body {
+            font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        .nav-item {
+            font-size: 16px;
+        }
+        
+        html {
+            font-size: 16px!important;
+        }
+        
+        h1 {
+            font-weight: light;
+        }
+        
+        @media (max-width: 767px) {
+            h1 {
+                font-size: 48px!important;
+            }
+            .my-table {
+                height: 196px;
+                margin-left: 18px;
+                overflow-y: hidden;
+            }
+            .table-footer::before {
+                font-style: italic;
+                font-weight: bold;
+                content: "*остальные строки таблицы*";
+            }
+            .table-footer {
+                height: 108px;
+                margin-left: 18px;
+                background-image: url(Rectangle.png);
+            }
+        }
+        
+        @media (md) {
+            h1 {
+                font-size: 72px!important;
+            }
+        }
+        
+        .active {
+            font-size: 20px;
+            font-weight: 400;
+        }
+        
+        .nav-link {
+            color: #ffffff!important;
+        }
+        
+        .footer {
+            background-color: #f5f5f5;
+            color: #6C757D;
+        }
+        
+        .card-header {
+            background-color: #f5f5f5;
+        }
+        
+        .card-body {
+            background-color: #ffffff;
+        }
+        
+        .card {
+            background-color: #f5f5f5;
+        }
+        
+        .jumbotron {
+            background-color: #E9ECEF;
+        }
+        
+        .font-weight-light {
+            font-weight: 100!important;
+        }
